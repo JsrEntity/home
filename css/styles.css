@@ -4,6 +4,8 @@ body {
   font-size: 16px;
   scroll-behavior: smooth;
 }
+/* Topnav */
+
 
 .topnav {
   position: fixed;
@@ -85,7 +87,7 @@ body {
   }
 }
 
-
+/* Hero section */
 
 .real {
   width: 90%;
@@ -100,6 +102,7 @@ body {
 .side-photo {
   display: none;
 }
+
 
 @media screen and (max-width:767px) {
   .topnav {
@@ -162,8 +165,12 @@ body {
     padding-right: 4%;
 
   }
+  .changes-text{
+    display: block;
+  }
 }
 
+/* Tiles */
 
 .btn {
   padding: 15px, 17px;
@@ -206,17 +213,22 @@ body {
   transform: scale(1.01);
 }
 
+.changes-text{
+  display: none;
+}
+
 
 #chooseyear {
   text-align: center;
   margin: auto;
+  margin-top: 100px;
   font-family: "Merriweather";
   font-size: 60px;
 }
 
 #thick {
   height: 2px;
-  width: 100%;
+  width: 105%;
   border-width: 0;
   color: gray;
   background-color: gray;
@@ -234,6 +246,10 @@ body {
     color: gray;
     background-color: gray;
   }
+  .changes{
+    display: none;
+  }
+  .changes-text{display: block;}
 }
 
 .changes {
@@ -243,3 +259,4 @@ body {
 .changes:hover {
   cursor: pointer;
 }
+
