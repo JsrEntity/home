@@ -1,7 +1,9 @@
 .welcome {
   padding-top: 150px;
-  text-align: center;
+  text-align: left;
   font-size: 60px;
+  padding-left: 150px;
+  color: gray;
 }
 
 .button-text {
@@ -12,15 +14,31 @@
   font-style: italic;
   font-size: 30px;
 }
+span.author-quote{
+  font-size: 24px;
+}
+
+.git-logo{
+  margin-top: 120px;
+  margin-right: 150px;
+}
 
 .hero-content {
   position: relative;
   margin-top: -270px;
+  height:fit-content ;
 }
 
 .hero-bg {
-  width: 90%;
-  margin-left: 10%;
+  margin-top: -150px;
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.firstbtn,.secondbtn{
+  z-index: +1000000;
 }
 
 .hero-content__entry {
@@ -33,9 +51,11 @@
 }
 
 .entry-words {
+  font-family: -apple-system, BlinkMacSystemFont;
+  margin-top: -200px;
   align-self: flex-start;
   font-size: 50px;
-  margin-left: 15%;
+  margin-left: 10%;
   color: white;
 }
 
