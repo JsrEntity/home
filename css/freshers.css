@@ -1,0 +1,87 @@
+.welcome {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.button-text {
+  font-size: 25px;
+}
+
+.author-quote {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.hero-content {
+  position: relative;
+  margin-top: -270px;
+}
+
+.hero-bg {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.hero-content__entry {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  top: 40%;
+  left: 0;
+}
+
+.entry-words {
+  align-self: flex-start;
+  font-size: 50px;
+  margin-left: 15%;
+  color: white;
+}
+
+.branches {
+  margin-top: -200px;
+}
+
+@media screen and (max-width: 1500px) {
+  .hero-content {
+    margin-top: -100px;
+  }
+  .hero-content__entry {
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .entry-words {
+    font-size: 24px;
+  }
+  .author-quote {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .hero-content {
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .branches {
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero-bg {
+    height: 600px;
+  }
+  .git-logo {
+    display: none;
+  }
+  .entry-words {
+    margin-top: 70px;
+    font-size: 20px;
+  }
+}
