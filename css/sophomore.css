@@ -1,0 +1,146 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.leftwala{
+padding-left: 120px;
+margin-top: -30px;
+
+}
+
+.leftwala a{
+/*font-weight: bold;*/
+font-family: 'Rubik', sans-serif;
+text-decoration: none;
+color: black;
+font-size: 25px;
+padding-left: 50px;
+}
+
+.rightwala{
+padding-left: 870px;
+margin-top: -30px;
+}
+
+.rightwala a{
+/*font-weight: bold;*/
+font-family: 'Rubik', sans-serif;
+color: black;
+text-decoration: none;
+font-size: 25px;
+padding-left: 25px;
+}
+
+
+
+hr{
+color: black;
+width: 100%;
+}
+
+
+h1{ font-size: 50px;
+padding-left: 80px;
+padding-top: 25px;
+color: grey;
+}
+
+.firstbutton button{
+margin-top: 5px;
+color: white;
+font-family: 'Rubik', sans-serif;
+background-color: #ff7675;
+width: 700px;
+height: 350px;
+font-size: 50px;
+margin-left: 87px;
+/* box-shadow: 10px 15px; */
+box-shadow: 5px 6px 22px 7px grey;
+border-radius: 32px;
+border: 2px solid #deb4b4;
+}
+
+h2{
+font-size: 30px;
+text-align: center;
+font-family: 'Rubik', sans-serif;
+
+}
+.boi img{
+width: 263px;
+height: 298px;
+float: left;
+}
+.first3 button{
+font-weight: bold;
+font-size: 30px;
+background-color: #fab1a0;
+width: 190px;
+height: 135px;
+margin-left: 190px;
+/* box-shadow: 0.5px 2.5px; */
+border-radius: 32px;
+border: 2px solid #deb4b4;
+font-family: 'Rubik', sans-serif;
+
+
+box-shadow: 8px 7px 13px 7px rgb(170, 143, 143);
+}
+
+.second3 button{
+font-weight: bold;
+font-size: 30px;
+background-color: #fab1a0;
+width: 190px;
+height: 135px;
+margin-left: 190px;
+/* box-shadow: 0.5px 2.5px; */
+border-radius: 32px;
+border: 2px solid #deb4b4;
+font-family: 'Rubik', sans-serif;
+
+
+box-shadow: 8px 7px 13px 7px rgb(170, 143, 143);
+}
+
+.lastbutton button{
+font-weight: bold;
+font-size: 30px;
+background-color: #fab1a0;
+width: 190px;
+height: 135px;
+margin-left: 555px;
+/* box-shadow: 0.5px 2.5px; */
+border-radius: 32px;
+border: 2px solid #deb4b4;
+font-family: 'Rubik', sans-serif;
+
+
+box-shadow: 8px 7px 13px 7px rgb(170, 143, 143);
+}
+.first3 button:hover{
+box-shadow: 8px 7px 13px 7px grey;
+
+}
+.second3 button:hover{
+box-shadow: 8px 7px 13px 7px grey;
+
+}
+.lastbutton button:hover{
+box-shadow: 8px 7px 13px 7px grey;
+
+}
+
+
+a:link{
+color: black
+}
+a:visited{
+color: black
+}
+a:hover{
+color: red
+}
+a:active{
+color: gold
+}
